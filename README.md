@@ -11,4 +11,13 @@ and MEE6 (*!work*)
 
 # Usage
 
-TODO
+## GUI vs. No-GUI
+If you would rather run thermite client on a server, like an RPi, then the 
+No-Gui feature is for you.
+
+It is exactly the same as the GUI version however everything is listed out
+in command-line arguments:
+
+```
+python thermite.py --id=[channel id] --message1=[message] --interval=[interval] --message2=[message]
+```
